@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background-color: rgb(80, 166, 26);
+    background-color: $color-primary;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ footer {
     p {
         width: 50%;
         background-color: rgb(80, 166, 26);
-        color: white;
+        color: $color-font;
         font-size: 1.1rem;
         border-radius: 0.4rem;
         text-align: center;

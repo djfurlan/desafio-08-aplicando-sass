@@ -7,12 +7,12 @@
 
                     .form-Consulta {
                         width: 500px;
-                        background: rgb(80, 166, 26);
+                        background: $color-primary;
                         padding: 30px 50px;
                         margin: 50px 0;
                         border-radius: 1rem;
                         font-family: calibri;
-                        color: white;
+                        color: $color-font;
                         box-shadow: 7px 13px 37px rgb(71, 102, 169);
                         display: flex;
                         flex-direction: column;
@@ -39,7 +39,7 @@
                                         border-radius: 8px;
                                         background-color: rgba(169, 169, 169, 0.748);
                                         font-size: 20px;
-                                        color: white;
+                                        color: $color-font;
                                     }
                     } 
 }

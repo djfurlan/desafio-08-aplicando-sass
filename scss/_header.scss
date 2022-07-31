@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background-color: rgb(80, 166, 26);
+    background-color: $color-primary;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
     h1 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 150%;
-        color: white;
+        color:$color-font;
     }
 
     nav {
@@ -38,7 +38,7 @@
                 }
 
                 a{
-                  color: white;
+                  color:$color-font;
                   font-size: 1.1rem; 
                 }
             }
